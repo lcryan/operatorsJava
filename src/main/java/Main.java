@@ -4,19 +4,19 @@ public class Main {
 
         int x = 3;
 
-        // Pas deze assignement aan zodat variable `four` de waarde `4` toegewezen krijgt.
-        int four = x;
-        // Pas deze assignement aan zodat variable `one` de waarde `1` toegewezen krijgt.
-        int one = x;
-        // Pas deze assignement aan zodat variable `three_point_5` de float(!) waarde `3.5` toegewezen krijgt.
-        float three_point_5 = x;
-        // Pas deze assignement aan zodat variable `one_point_5` de waarde `1.5` toegewezen krijgt.
-        double one_point_5 = x;
-        // Pas deze assignement aan zodat variable `zero` de waarde `0` toegewezen krijgt. Je mag geen +, -, * of / gebruiken.
-        int zero = x;
+        // Pas deze assignment aan zodat variable `four` de waarde `4` toegewezen krijgt.
+        int four = x + 1;
+        // Pas deze assignment aan zodat variable `one` de waarde `1` toegewezen krijgt.
+        int one = x - 2;
+        // Pas deze assignment aan zodat variable `three_point_5` de float(!) waarde `3.5` toegewezen krijgt.
+        float three_point_5 = x + 0.5f;
+        // Pas deze assignment aan zodat variable `one_point_5` de waarde `1.5` toegewezen krijgt.
+        double one_point_5 = x - 1.5d;
+        // Pas deze assignment aan zodat variable `zero` de waarde `0` toegewezen krijgt. Je mag geen +, -, * of / gebruiken.
+        int zero = x % 3;
 
         // Wat kunnen we op de lege regel hieronder schrijven zodat de System.out.println daaronder klopt?
-
+x += 3;
         System.out.println(x); // six
         // Pas onderstaand statement aan zodat dat statement en het statement daarna kloppen
         System.out.println(x); // six
