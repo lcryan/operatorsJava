@@ -16,31 +16,32 @@ public class Main {
         int zero = x % 3;
 
         // Wat kunnen we op de lege regel hieronder schrijven zodat de System.out.println daaronder klopt?
-x += 3;
+        x += 3;
         System.out.println(x); // six
         // Pas onderstaand statement aan zodat dat statement en het statement daarna kloppen
-        System.out.println(x); // six
+        System.out.println(x++); // six
         System.out.println(x); // seven
         // Pas onderstaan statement aan zodat het statement klopt.
-        System.out.println(x); // six
+        System.out.println(--x); // six
 
         int left = 5;
         int right = 0;
         boolean bool = false;
         // voeg een assignment toe voor de variabele `right` zodat boolean `a1` true is.
-
+        right = 8;
         boolean a1 = left < right;
         // voeg een assignment toe voor de variabele `right` zodat boolean `a2` true is.
-
+right = 4;
         boolean a2 = left > right;
         // voeg een assignment toe voor de variabele `right` zodat boolean `a3` true is.
-
+        right = 5;
         boolean a3 = left == right;
         // voeg een assignment toe voor de variabele `bool` zodat boolean `a4` true is.
-
+bool = true;
         boolean a4 = left <= 3 || bool;
         // voeg een assignment toe voor de variabele `bool` zodat boolean `a5` true is.
-
+// anyway is true - as it already had a true in the first expression ??
+bool = false;
         boolean a5 = left > 4 && !bool;
 
 
